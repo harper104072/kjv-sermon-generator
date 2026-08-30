@@ -14,7 +14,8 @@
     "react-dom": "18.2.0",
     "openai": "^4.0.0",
     "axios": "^1.4.0",
-    "node-fetch": "^2.6.7"
+    "node-fetch": "^2.6.7",
+    "fast-levenshtein": "^2.0.6"
   },
   "devDependencies": {
     "typescript": "^5.1.6",

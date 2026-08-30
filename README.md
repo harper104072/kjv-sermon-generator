@@ -1,2 +1,1 @@
-# kjv-sermon-generator
-Next.js TypeScript scaffold that generates KJV-only Independent Baptist sermons. Includes full KJV JSON, multi-verse support, placeholder substitution, and CI options.
+Updated verification: added fuzzy matching of quoted scripture with KJV DB, cross-chapter range parsing, verificationMode (warn|strict), and similarity thresholds. Default behavior: warn on near-matches, accept high-similarity matches, reject low-similarity in strict mode.
