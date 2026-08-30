@@ -1,0 +1,23 @@
+{
+  "name": "kjv-sermon-generator",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev -p 3000",
+    "build": "next build",
+    "start": "next start",
+    "fetch:kjv": "bash scripts/fetch_kjv.sh"
+  },
+  "dependencies": {
+    "next": "13.5.6",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "openai": "^4.0.0",
+    "axios": "^1.4.0",
+    "node-fetch": "^2.6.7"
+  },
+  "devDependencies": {
+    "typescript": "^5.1.6",
+    "@types/node": "^20.7.0"
+  }
+}
